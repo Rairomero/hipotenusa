@@ -1,4 +1,5 @@
 <?php
+  $hipotenusa = null;
   if(isset($_POST['base']) && isset($_POST['altura'])) {
     $base = $_POST['base'];
     $altura = $_POST['altura'];
