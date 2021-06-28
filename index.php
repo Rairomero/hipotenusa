@@ -3,7 +3,6 @@
   if(isset($_POST['base']) && isset($_POST['altura'])) {
     $base = $_POST['base'];
     $altura = $_POST['altura'];
-    $hipotenusa = null;
     if(!empty($base) or !empty($altura)) {
       $hipotenusa = hypot($altura, $base);
     }
